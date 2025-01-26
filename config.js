@@ -2,8 +2,8 @@
 
 module.exports = {
   TOKEN: "",
-  language: "en",
-  ownerID: ["1004206704994566164", ""], 
+  language: "th",
+  ownerID: ["705260973669482507", ""], 
   mongodbUri : "mongodb+srv://Shinono:Sunao_Shinono@miku-bot.pbceb.mongodb.net/?retryWrites=true&w=majority&appName=Miku-Bot",
   setupFilePath: './commands/setup.json',
   commandsDir: './commands',  
