@@ -22,10 +22,10 @@ module.exports = {
       secure: false
     },
     {
-      name: "Catfein ID",
-      password: "catfein",
-      host: "lava.catfein.com",
-      port: 4000,
+      name: "Koi Node V4",
+      password: "prplmoe.me",
+      host: "lavav4.prplmoe.me",
+      port: 1118,
       secure: false
     },
     { 
