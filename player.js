@@ -201,8 +201,8 @@ function formatDuration(ms) {
 }
 function setupCollector(client, player, channel, message) {
     const filter = i => [
-        'loopToggle', 'skipTrack', 'disableLoop', 'showQueue', 'clearQueue',
-        'stopTrack', 'pauseTrack', 'resumeTrack', 'volumeUp', 'volumeDown'
+        'loopToggle', 'skipTrack', 'disableLoop', 'volumeUp', 'volumeDown',
+        'stopTrack', 'pauseTrack', 'resumeTrack', 
     ].includes(i.customId);
 
     const collector = message.createMessageComponentCollector({ filter, time: 600000 }); // Set timeout if desired
@@ -244,13 +244,6 @@ async function handleInteraction(i, player, channel) {
             break;
         case 'disableLoop':
             disableLoop(player, channel);
-            break;
-        case 'showQueue':
-            showQueue(channel);
-            break;
-        case 'clearQueue':
-            player.queue.clear();
-            await sendEmbed(channel, "🗑️ **คิวเพลงถูกลบเรียบร้อย**");
             break;
         case 'stopTrack':
             player.stop();
@@ -319,34 +312,6 @@ function disableLoop(player, channel) {
     player.setLoop("none");
     sendEmbed(channel, "❌ **ปิดวนซ้ำแล้วค่ะ**");
 }
-
-function showQueue(channel) {
-    if (queueNames.length === 0) {
-        sendEmbed(channel, "คิวเพลงอย่างโล่งเลยค่ะ");
-        return;
-    }
-    const queueChunks = [];
-
- 
-    for (let i = 1; i < queueNames.length; i += 10) {
-        const chunk = queueNames.slice(i, i + 10)
-            .map((song, index) => `${i + index}. ${formatTrack(song)}`)
-            .join('\n');
-        queueChunks.push(chunk);
-    }
-
-  
-    channel.send({
-        embeds: [new EmbedBuilder().setColor(config.embedColor).setDescription(nowPlaying)]
-    }).catch(console.error);
-
-  
-    queueChunks.forEach(async (chunk) => {
-        const embed = new EmbedBuilder()
-            .setColor(config.embedColor)
-            .setDescription(`📜 **คิวเพลง:**\n${chunk}`);
-        await channel.send({ embeds: [embed] }).catch(console.error);
-    });
 }
 
 function createActionRow1(disabled) {
