@@ -106,7 +106,7 @@ function initializePlayer(client) {
                 `- **นักร้อง:** ${track.info.author || 'Unknown Artist'}\n` +
                 `- **ระยะเวลา:** ${formatDuration(track.info.length)}\n` +
                 `- **ผู้ขอเพลง:** ${requester}\n` +
-                `- **แหล่งที่มา:** ${track.info.sourceName}\n` + '**- ควบคุมเพลง :**\n 🔁 `วนซ้ำ`, ❌ `ปิดการวนซ้ำ`, ⏭️ `ข้ามเพลง`, 📜 `คิวเพลง`, 🗑️ `ลบคิวเพลงออก`\n ⏹️ `หยุดเพลงและออก`, ⏸️ `หยุดเพลงชั่วคราว`, ▶️ `เล่นต่อ`, 🔊 `เพิ่มเสียง`, 🔉 `ลดเสียง`')
+                `- **แหล่งที่มา:** ${track.info.sourceName}\n` + '**- ควบคุมเพลง :**\n 🔁 `วนซ้ำ`, ❌ `ปิดการวนซ้ำ`, ⏭️ `ข้ามเพลง`, 🔊 `เพิ่มเสียง`, 🔉 `ลดเสียง`\n ⏹️ `หยุดเพลงและออก`, ⏸️ `หยุดเพลงชั่วคราว`, ▶️ `เล่นต่อ`')
             .setImage('attachment://musicard.png')
             .setColor('#FF7A00');
 
@@ -355,8 +355,8 @@ function createActionRow1(disabled) {
             new ButtonBuilder().setCustomId("loopToggle").setEmoji('🔁').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
             new ButtonBuilder().setCustomId("disableLoop").setEmoji('❌').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
             new ButtonBuilder().setCustomId("skipTrack").setEmoji('⏭️').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
-            new ButtonBuilder().setCustomId("showQueue").setEmoji('📜').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
-            new ButtonBuilder().setCustomId("clearQueue").setEmoji('🗑️').setStyle(ButtonStyle.Secondary).setDisabled(disabled)
+            new ButtonBuilder().setCustomId("volumeUp").setEmoji('🔊').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
+            new ButtonBuilder().setCustomId("volumeDown").setEmoji('🔉').setStyle(ButtonStyle.Secondary).setDisabled(disabled)
         );
 }
 
@@ -366,8 +366,6 @@ function createActionRow2(disabled) {
             new ButtonBuilder().setCustomId("stopTrack").setEmoji('⏹️').setStyle(ButtonStyle.Danger).setDisabled(disabled),
             new ButtonBuilder().setCustomId("pauseTrack").setEmoji('⏸️').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
             new ButtonBuilder().setCustomId("resumeTrack").setEmoji('▶️').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
-            new ButtonBuilder().setCustomId("volumeUp").setEmoji('🔊').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
-            new ButtonBuilder().setCustomId("volumeDown").setEmoji('🔉').setStyle(ButtonStyle.Secondary).setDisabled(disabled)
         );
 }
 
