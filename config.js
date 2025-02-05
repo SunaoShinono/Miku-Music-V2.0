@@ -14,6 +14,13 @@ module.exports = {
   embedTimeout: 10, 
   errorLog: "", 
   nodes: [
+     {
+      name: "Koi Node V4",
+      password: "prplmoe.me",
+      host: "lavav4.prplmoe.me",
+      port: 1118,
+      secure: false
+    },  
     {
       name: "INZEWORLD.COM (DE)",
       password: "saher.inzeworld.com",
@@ -21,13 +28,7 @@ module.exports = {
       port: 3128,
       secure: false
     },
-    {
-      name: "Koi Node V4",
-      password: "prplmoe.me",
-      host: "lavav4.prplmoe.me",
-      port: 1118,
-      secure: false
-    },
+
     { 
       name: "ChalresNaig Node",
       password: "NAIGLAVA-dash.techbyte.host",
