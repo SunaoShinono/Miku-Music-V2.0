@@ -15,13 +15,6 @@ module.exports = {
   errorLog: "", 
   nodes: [
     {
-      name: "nextgencoders",
-      password: "freemenahimilta",
-      host: "lava-v4.nextgencoders.xyz",
-      port: 2333,
-      secure: false
-    },  
-    {
       name: "INZEWORLD.COM (DE)",
       password: "saher.inzeworld.com",
       host: "lava.inzeworld.com",
