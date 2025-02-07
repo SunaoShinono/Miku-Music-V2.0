@@ -20,6 +20,20 @@ module.exports = {
       host: "lava.inzeworld.com",
       port: 3128,
       secure: false
+    },
+    {
+      name: "Koi Node V4",
+      password: "prplmoe.me",
+      host: "lavav4.prplmoe.me",
+      port: 1118,
+      secure: false
+    },   
+    {
+      name: "Public Lavalink v4 NonSSL",
+      password: "https://dsc.gg/ajidevserver",
+      host: "lava-v4.ajieblogs.eu.org",
+      port: 80,
+      secure: false
     }
   ]
 }
