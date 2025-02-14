@@ -22,10 +22,10 @@ module.exports = {
       secure: false
     },
     {
-      name: "Koi Node V4",
-      password: "prplmoe.me",
-      host: "lavav4.prplmoe.me",
-      port: 1118,
+      name: "ChalresNaig Node",
+      password: "NAIGLAVA-dash.techbyte.host",
+      host: "lavahatry4.techbyte.host",
+      port: 3000,
       secure: false
     },   
     {
