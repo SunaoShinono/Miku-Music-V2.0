@@ -99,7 +99,7 @@ function initializePlayer(client) {
                 iconURL: musicIcons.playerIcon,
                 url: config.SupportServer
             })
-            .setFooter({ text: `ดูแลและจัดการระบบโดย hatune_miku_16`, iconURL: musicIcons.heartIcon })
+            .setFooter({ text: `จัดการ และ รันระบบโดย Hatsune_miku_16 | Miku Music v2.0`, iconURL: musicIcons.heartIcon })
             .setTimestamp()
             .setDescription(  
                 `- **ชื่อเพลง:** [${track.info.title}](${track.info.uri})\n` +
