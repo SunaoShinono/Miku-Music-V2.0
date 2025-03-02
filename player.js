@@ -106,7 +106,7 @@ function initializePlayer(client) {
                 `- **นักร้อง:** ${track.info.author || 'Unknown Artist'}\n` +
                 `- **ระยะเวลา:** ${formatDuration(track.info.length)}\n` +
                 `- **ผู้ขอเพลง:** ${requester}\n` +
-                `- **แหล่งที่มา:** ${track.info.sourceName}\n` + '**- การควบคุม :**\n 🔁 `วนซ้ำ`, ❌ `ปิดวนซ้ำ`, ⏭️ `ข้ามเพลง`, 📜 `คิวเพลง`, 🗑️ `เคลียร์คิวเพลง`\n ⏹️ `หยุดเพลง`, ⏸️ `หยุดชั่วคราว`, ▶️ `เล่นต่อ`, 🔊 `เพิ่มเสียง`, 🔉 `ลดเสียง`')
+                `- **แหล่งที่มา:** ${track.info.sourceName}\n` + '**- การควบคุม :**\n 🔁 `วนซ้ำ`, ❌ `ปิดวนซ้ำ`, ⏭️ `ข้ามเพลง`, 📃 `คิวเพลง`, 🗑️ `เคลียร์คิวเพลง`\n ⏹️ `หยุดเพลง`, ⏸️ `หยุดชั่วคราว`, ▶️ `เล่นต่อ`, 🔊 `เพิ่มเสียง`, 🔉 `ลดเสียง`')
             .setImage('attachment://musicard.png')
             .setColor('#FF7A00');
 
@@ -336,7 +336,7 @@ function createActionRow1(disabled) {
             new ButtonBuilder().setCustomId("loopToggle").setEmoji('🔁').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
             new ButtonBuilder().setCustomId("disableLoop").setEmoji('❌').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
             new ButtonBuilder().setCustomId("skipTrack").setEmoji('⏭️').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
-            new ButtonBuilder().setCustomId("showQueue").setEmoji('💎').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
+            new ButtonBuilder().setCustomId("showQueue").setEmoji('📃').setStyle(ButtonStyle.Secondary).setDisabled(disabled),
             new ButtonBuilder().setCustomId("clearQueue").setEmoji('🗑️').setStyle(ButtonStyle.Secondary).setDisabled(disabled)
         );
 }
