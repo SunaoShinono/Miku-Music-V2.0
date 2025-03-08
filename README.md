@@ -21,4 +21,6 @@ Korean (ko),
 Russian (ru),
 Portuguese (pt),
 Arabic (ar),
-Vietnamese (vi)
+Vietnamese (vi),
+Thai (th)
+
