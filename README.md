@@ -1,21 +1,15 @@
 # Hatsune-Miku [Music Bot for Discord]
 LAVALINK BOT MADE BY SHIVA.
 
-Fork the Repositry and add your bot token. Must turn on intents and run the code.
-Use /play to start playing the songs.
-
-# ENV
-TOKEN
- 
-# Config.js
-Add mongoUri
+ใช้คำสั่ง /play เพื่อเริ่มเล่นเพลง
+หากต้องการความช่วยเหลือ ใช้คำสั่ง /help
 
 # Supports
 - YouTube
 - SoundCloud
 - Spotify
 
-Links / Text / Playlists
+ลิงค์ / ชื่อเพลง / Playlist เพลง (Youtube และ Spotify)
  
 English (en),
 Spanish (es),
