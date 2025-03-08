@@ -1,4 +1,4 @@
-# PrimeMusic-Lavalink
+# Hatsune-Miku [Music Bot for Discord]
 LAVALINK BOT MADE BY SHIVA.
 
 Fork the Repositry and add your bot token. Must turn on intents and run the code.
