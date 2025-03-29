@@ -4,7 +4,7 @@ module.exports = {
   TOKEN: "",
   language: "th",
   ownerID: ["705260973669482507", ""], 
-  mongodbUri : "mongodb+srv://Shinono:Sunao_Shinono@miku-bot.pbceb.mongodb.net/?retryWrites=true&w=majority&appName=Miku-Bot",
+  mongodbUri : "mongodb+srv://Shinono:Shinono@hatsunemikubot.yonuta5.mongodb.net/?retryWrites=true&w=majority&appName=HatsuneMikuBot",
   spotifyClientId : "bddc81fcd0af46d9b05a278f8f9f9939",
   spotifyClientSecret : "ee11fa4a59bf4f64b5a6433839b49c02",
   setupFilePath: './commands/setup.json',
@@ -16,33 +16,12 @@ module.exports = {
   embedTimeout: 10, 
   errorLog: "", 
   nodes: [
-    {
-      name: "INZEWORLD.COM (DE)",
-      password: "saher.inzeworld.com",
-      host: "lava.inzeworld.com",
-      port: 3128,
+  {
+      name: "Avinan",
+      password: "avinan",
+      host: "new-york-node-1.vortexcloud.xyz",
+      port:  5008,
       secure: false
-    },
-    {
-      name: "ChalresNaig Node",
-      password: "NAIGLAVA-dash.techbyte.host",
-      host: "lavahatry4.techbyte.host",
-      port: 3000,
-      secure: false
-    },  
-    {
-      name: "Public Lavalink v4 NonSSL",
-      password: "https://dsc.gg/ajidevserver",
-      host: "lava-v4.ajieblogs.eu.org",
-      port: 80,
-      secure: false
-    },
-        {
-      name: "jirayu",
-      password: "youshallnotpass",
-      host: "lavalink.jirayu.net",
-      port: 13592,
-      secure: false
-    }
+  }
   ]
 }
