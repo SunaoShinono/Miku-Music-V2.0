@@ -22,6 +22,13 @@ module.exports = {
       host: "new-york-node-1.vortexcloud.xyz",
       port:  5008,
       secure: false
+  },
+   {
+      name: "MuzammilOPYT",
+      password: "yourpasswordhere",
+      host: "ind1.zapto.org",
+      port:  25575,
+      secure: false
   }
   ]
 }
