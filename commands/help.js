@@ -6,7 +6,7 @@ const musicIcons = require('../UI/icons/musicicons.js');
 
 module.exports = {
   name: "help",
-  description: "Get information about the bot",
+  description: "ดูข้อมูลเกี่ยวกับบอทและคำสั่งที่สามารถใช้งานได้",
   permissions: "0x0000000000000800",
   options: [],
   run: async (client, interaction, lang) => {
