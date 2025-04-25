@@ -45,12 +45,12 @@ async function toggleAutoplay(client, interaction, lang) {
 
 module.exports = {
     name: 'autoplay',
-    description: 'Toggle autoplay for the server',
+    description: 'เปิดหรือปิด Autoplay สำหรับเซิร์ฟเวอร์',
     permissions: '0x0000000000000800',
     options: [
         {
             name: 'enable',
-            description: 'toggle autoplay on / off',
+            description: 'เปิดหรือปิด Autoplay',
             type: ApplicationCommandOptionType.Boolean,
             required: true
         }
