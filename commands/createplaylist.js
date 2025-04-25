@@ -73,18 +73,18 @@ async function createPlaylist(client, interaction, lang) {
 
 module.exports = {
     name: 'createplaylist',
-    description: 'Create a new playlist',
+    description: 'สร้าง playlist ใหม่',
     permissions: '0x0000000000000800',
     options: [
         {
             name: 'name',
-            description: 'Enter playlist name',
+            description: 'ใส่ชื่อ playlist',
             type: ApplicationCommandOptionType.String,
             required: true
         },
         {
             name: 'private',
-            description: 'Set playlist as private (visible only to you)',
+            description: 'ตั้งเป็นแบบส่วนตัว (มีเพียงคุณเท่านั้นที่เห็น)',
             type: ApplicationCommandOptionType.Boolean,
             required: true
         }
