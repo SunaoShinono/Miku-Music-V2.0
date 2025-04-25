@@ -57,18 +57,18 @@ async function deleteSong(client, interaction, lang) {
 
 module.exports = {
     name: 'deletesong',
-    description: 'Delete a song from a playlist',
+    description: 'ลบเพลงใน playlist',
     permissions: '0x0000000000000800',
     options: [
         {
             name: 'playlist',
-            description: 'Enter playlist name',
+            description: 'ใส่ชื่อ playlist',
             type: ApplicationCommandOptionType.String,
             required: true
         },
         {
             name: 'song',
-            description: 'Enter song name',
+            description: 'ใส่ชื่อเพลงที่จะลบ',
             type: ApplicationCommandOptionType.String,
             required: true
         }
