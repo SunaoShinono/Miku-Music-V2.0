@@ -73,7 +73,7 @@ async function allPlaylists(client, interaction, lang) {
 
 module.exports = {
     name: 'allplaylists',
-    description: 'List all public playlists',
+    description: 'แสดง Playlist ส่วนรวมทั้งหมด',
     permissions: '0x0000000000000800',
     run: allPlaylists
 };
