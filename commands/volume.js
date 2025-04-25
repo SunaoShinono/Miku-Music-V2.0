@@ -57,11 +57,11 @@ async function volume(client, interaction, lang) {
 
 module.exports = {
     name: "volume",
-    description: "Set the volume of the current song",
+    description: "ปรับเสียงของ Miku (มีผลทั้ง Server)",
     permissions: "0x0000000000000800",
     options: [{
         name: 'level',
-        description: 'Volume level (0-100)',
+        description: 'ระกับเสียง (0-100)',
         type: ApplicationCommandOptionType.Integer,
         required: true
     }],
