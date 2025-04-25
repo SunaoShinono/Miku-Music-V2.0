@@ -56,7 +56,7 @@ async function shuffle(client, interaction, lang) {
 
 module.exports = {
     name: "shuffle",
-    description: "Shuffle the current song queue",
+    description: "สลับเล่นเพลงจากคิวเพลง",
     permissions: "0x0000000000000800",
     options: [],
     run: shuffle
