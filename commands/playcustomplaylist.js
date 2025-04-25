@@ -142,12 +142,12 @@ async function playCustomPlaylist(client, interaction, lang) {
 
 module.exports = {
     name: 'playcustomplaylist',
-    description: 'Play a custom playlist',
+    description: 'เล่นเพลงจาก playlist ที่สร้างไว้',
     permissions: '0x0000000000000800',
     options: [
         {
             name: 'name',
-            description: 'Enter playlist name',
+            description: 'ใส่ชื่อ playlist',
             type: ApplicationCommandOptionType.String,
             required: true
         }
