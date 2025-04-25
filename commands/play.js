@@ -176,7 +176,8 @@ async function play(client, interaction, lang) {
 
     } catch (error) {
         console.error('Error processing play command:', error);
-        await interaction.followUp({ content: "❌ An error occurred while processing the request." });
+        await interaction.followUp({ content: "❌ ขออภัยค่ะ ขณะนี้ไม่สามารถเชื่อมต่อกับ Node ของ Server ได้ โปรดติดต่อเจ้านายของ Miku (@hatsune_miku_16) เพื่อรายงานถึงปัญหานี้" });
+        player.destroy
     }
 }
 
