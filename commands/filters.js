@@ -102,17 +102,17 @@ async function filters(client, interaction, lang) {
 
 module.exports = {
     name: "filters",
-    description: "Control audio filters with buttons",
+    description: "ปรับ filter เพลงตามสไตล์ของคุณ",
     permissions: "0x0000000000000800",
     options: [
         {
             name: 'filter',
-            description: 'Select a filter to apply',
+            description: 'เลือก filter เพลง',
             type: ApplicationCommandOptionType.String,
             required: true,
             choices: [
                 { name: 'Karaoke', value: 'karaoke' },
-                { name: 'Timescale', value: 'timescale' },
+                { name: 'Nightcore', value: 'timescale' },
                 { name: 'Tremolo', value: 'tremolo' },
                 { name: 'Vibrato', value: 'vibrato' },
                 { name: '3D', value: 'rotation' },
