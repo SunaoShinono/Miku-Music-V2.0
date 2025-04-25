@@ -54,7 +54,7 @@ async function stop(client, interaction, lang) {
 
 module.exports = {
     name: "stop",
-    description: "Stop the current song and destroy the player",
+    description: "หยุดเล่นเพลงทั้งหมดและออกจากห้องเสียง",
     permissions: "0x0000000000000800",
     options: [],
     run: stop
