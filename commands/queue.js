@@ -93,7 +93,7 @@ async function queue(client, interaction, lang) {
 
 module.exports = {
     name: "queue",
-    description: "Show the current song queue",
+    description: "แสดงคิวเพลงทั้งหมด",
     permissions: "0x0000000000000800",
     options: [],
     run: queue
