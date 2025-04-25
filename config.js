@@ -29,6 +29,13 @@ module.exports = {
       host: "ind1.zapto.org",
       port:  25575,
       secure: false
+  },
+  {
+      name: "mushroom0162",
+      password: "yothisnodeishostedbymushroom0162",
+      host: "69.30.219.179",
+      port:  1038,
+      secure: false
   }
   ]
 }
