@@ -12,7 +12,7 @@ module.exports = {
   embedColor: "#1db954",
   activityName: "กำลังรอขึ้นเวที ใช้คำสั่ง /play", 
   activityType: "LISTENING",  // Available activity types : LISTENING , PLAYING
-  SupportServer: "https://discord.gg/xQF9f9yUEM",
+  SupportServer: "https://discord.gg/mTnW4ckkyJ",
   embedTimeout: 10, 
   errorLog: "", 
   nodes: [
