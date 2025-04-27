@@ -17,6 +17,13 @@ module.exports = {
   errorLog: "", 
   nodes: [
   {
+	name: "Hatsune Miku",
+	password: "hatsune_miku",
+	host: "sudo.pylex.xyz",
+	port: 11568,
+	secure: false
+},
+ {
       name: "Avinan",
       password: "avinan",
       host: "new-york-node-1.vortexcloud.xyz",
@@ -29,13 +36,6 @@ module.exports = {
       host: "ind1.zapto.org",
       port:  25575,
       secure: false
-  },
-{
-	name: "Hatsune Miku",
-	password: "hatsune_miku",
-	host: "sudo.pylex.xyz",
-	port: 11568,
-	secure: false
-}
+  }
   ]
 }
