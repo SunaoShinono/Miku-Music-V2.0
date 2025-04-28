@@ -73,7 +73,6 @@ function initializePlayer(client) {
         const guildId = player.guildId;
         const trackUri = track.info.uri;
         const requester = requesters.get(trackUri);
-        const endTime = new Date(total * 1000).toISOString().substr(11, 8);
         
         // Clean up previous track messages for this guild
         await cleanupPreviousTrackMessages(channel, guildId);
@@ -87,7 +86,6 @@ function initializePlayer(client) {
                 nameColor: '#FFFFFF',
                 author: track.info.author || 'Unknown Artist',
                 authorColor: '#696969',
-                endTime: endTime,
             });
 
             // Save the generated card to a file
