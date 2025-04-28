@@ -17,18 +17,19 @@ module.exports = {
   errorLog: "", 
   nodes: [
 
-{
-	name: "Hatsune Miku",
-	password: "hatsune_miku",
-	host: "sudo.pylex.xyz",
-	port: 11568,
-	secure: false
-},
+
 {
 	name: "ajieblogs",
 	password: "https://dsc.gg/ajidevserver",
 	host: "lava-v4.ajieblogs.eu.org",
 	port: 80,
+	secure: false
+},
+{
+	name: "Hatsune Miku",
+	password: "hatsune_miku",
+	host: "sudo.pylex.xyz",
+	port: 11568,
 	secure: false
 }
   ]
