@@ -1,7 +1,7 @@
 const { Riffy, Player } = require("riffy");
 const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle, AttachmentBuilder, PermissionsBitField } = require("discord.js");
 const { requesters } = require("./commands/play");
-const { Classic } = require("musicard");
+const { ClassicPro } = require("musicard");
 const config = require("./config.js");
 const musicIcons = require('./UI/icons/musicicons.js');
 const colors = require('./UI/colors/colors');
@@ -78,7 +78,7 @@ function initializePlayer(client) {
         await cleanupPreviousTrackMessages(channel, guildId);
 
         try {
-            const musicard = await Classic({
+            const musicard = await ClassicPro({
                 thumbnailImage: track.info.thumbnail || 'https://example.com/default_thumbnail.png',
                 backgroundImage: "https://i.imgur.com/OFTIaI8.png",
                 imageDarkness: 1,
