@@ -19,10 +19,10 @@ module.exports = {
 
 
 {
-	name: "ajieblogs",
-	password: "https://dsc.gg/ajidevserver",
-	host: "lava-v4.ajieblogs.eu.org",
-	port: 80,
+	name: "Jirayu",
+	password: "youshallnotpass",
+	host: "lavalink.jirayu.net",
+	port: 13592,
 	secure: false
 },
 {
