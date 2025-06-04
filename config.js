@@ -17,19 +17,11 @@ module.exports = {
   errorLog: "", 
   nodes: [
 {
-	name: "Jirayu",
-	password: "youshallnotpass",
-	host: "lavalink.jirayu.net",
-	port: 13592,
-	secure: false
-},
-{
 	name: "Hatsune Miku",
 	password: "hatsune_miku",
 	host: "sudo.pylex.xyz",
 	port: 11568,
 	secure: false
 }
-
   ]
 }
