@@ -17,11 +17,11 @@ module.exports = {
   errorLog: "", 
   nodes: [
 {
-	name: "Hatsune Miku",
-	password: "hatsune_miku",
-	host: "sudo.wisp.uno",
-	port: 11568,
-	secure: false
-}
+      name: "Anakin",
+      password: "anakin",
+      host: "us.apsara.lol",
+      port:  25575,
+      secure: false
+    }
   ]
 }
