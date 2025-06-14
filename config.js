@@ -19,7 +19,7 @@ module.exports = {
 {
 	name: "Hatsune Miku",
 	password: "hatsune_miku",
-	host: "sudo.pylex.xyz",
+	host: "sudo.wisp.uno",
 	port: 11568,
 	secure: false
 }
